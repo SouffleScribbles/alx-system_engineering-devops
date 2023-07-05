@@ -20,8 +20,8 @@
 12. *which* Shows the path of the executable associated with a given command.
 13. *help* Provides basic help and usage information for shell built-in commands.
 14. *man* Displays the manual pages for various commands, providing detailed information and usage instructions.
-*------------------------------------------------------------------------------------------------------------------------*
-**General**
+
+*-------------------------**General**------------------------*
 
 *What does RTFM mean?*
 RTFM" is an acronym that stands for "Read The Fucking Manual" (or sometimes "Read The Fine Manual").
@@ -30,8 +30,7 @@ RTFM" is an acronym that stands for "Read The Fucking Manual" (or sometimes "Rea
 * The shebang line is used to specify the interpreter or command that should be used to execute the script. 
 *It helps the operating system identify the correct interpreter to use for executing the script's commands.
 * For example, a shebang line like #!/bin/bash indicates that the script should be executed using the Bash interpreter.
-*------------------------------------------------------------------------------------------------------------------------*
-**What is the shell?**
+*----------------------**What is the shell?**----------------*
 
 *What is the Shell*
 * a shell is a command-line interface that allows users to interact with the operating system by executing commands. 
@@ -49,8 +48,7 @@ RTFM" is an acronym that stands for "Read The Fucking Manual" (or sometimes "Rea
 * The shell prompt is the text or symbol displayed by the shell in the terminal, indicating that it is ready to receive commands.
 *How to use the history (the basics)*
 * The history command is used to view and manage the command history in most shells. It allows you to access and rerun previously executed commands. 
-*------------------------------------------------------------------------------------------------------------------------*
-**Navigation**
+*----------------------**Navigation**------------------------*
 
 *What do the commands or built-ins cd, pwd, ls do*
 * cd: The cd command is used to change the current working directory in the shell. It allows you to navigate to different directories within the file system.
@@ -76,8 +74,7 @@ RTFM" is an acronym that stands for "Read The Fucking Manual" (or sometimes "Rea
 * Hidden files: Hidden files in Unix-like systems are files that have filenames starting with a dot (.). These files are not displayed when using the ls command without any additional options. To list hidden files, you can use the -a option with the ls command, like ls -a or ls -al for a detailed listing.
 *What does the command cd - do*
 * cd -: The cd - command is used to switch to the previous working directory. It is a shortcut for changing to the directory you were in before the current one. Running cd - will change the working directory to the previous directory you were in.
-*------------------------------------------------------------------------------------------------------------------------*
-**Looking Around**
+*---------------------**Looking Around**---------------------*
 
 *What do the commands ls, less, file do*
 *How do you use options and arguments with commands*
@@ -89,8 +86,8 @@ RTFM" is an acronym that stands for "Read The Fucking Manual" (or sometimes "Rea
 *What is the difference between a hard link and a symbolic link*
 
  # reference - chat gpt
-*-----------------------------------------------------------------------------------------------------------------------*
-**Manipulating files**
+*-------------------**Manipulating files**-------------------*
+
 
 *What do the commands cp, mv, rm, mkdir do*
 *What are wildcards and how do they work*
@@ -98,8 +95,8 @@ RTFM" is an acronym that stands for "Read The Fucking Manual" (or sometimes "Rea
 
 
 # reference - chat gpt
-*---------------------------------------------------------------------------------------------------------------------*
-**Working with commands**
+*-----------------**Working with commands**------------------*
+
 
 *What do type, which, help, man commands do*
 * type: The type command is used to determine how a command would be interpreted by the shell. It provides information about whether the command is a built-in shell command, an external command, an alias, or a function. For example, type ls would display the type of the ls command.
@@ -118,12 +115,12 @@ RTFM" is an acronym that stands for "Read The Fucking Manual" (or sometimes "Rea
 * Alias: An alias is a user-defined shortcut or alternative name for a command or command sequence. It allows users to create their own customized commands by assigning a shorter or more memorable name to a longer or complex command. Aliases are typically created in the shell's configuration file (e.g., .bashrc or .zshrc).
 *When do you use the command help instead of man*
 * Using help instead of man: You would typically use the help command instead of man for built-in shell commands. The help command provides quick access to the documentation and usage information specific to the shell's built-in commands. It is often faster and more convenient than searching through the comprehensive manual pages provided by man.
-*------------------------------------------------------------------------------------------------------------------------*
-**LTS**
+*-----------------------**LTS**------------------------------*
+
 
 *What does LTS mean?*
 * LTS stands for "Long-Term Support." It is a term commonly used in the software industry to designate specific releases or versions of software that receive extended support and maintenance.
-*------------------------------------------------------------------------------------------------------------------------*
+
 
 
 
