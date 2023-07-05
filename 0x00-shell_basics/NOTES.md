@@ -3,8 +3,8 @@
 **DevOps** **Shell** **Bash** 
 
 # Learning Objectives
-*------------------------------------------------------------*
-**man or help**
+
+*-----------------------**man or help**----------------------*
 
 1. *cd* Used to change the current working directory.
 2. *ls* Used to list files and directories in the current directory.
