@@ -1,3 +1,5 @@
+# Shell Basics
+
 # This readme file  describes what each script is doing
 
 # Task: 0. Where am I?
